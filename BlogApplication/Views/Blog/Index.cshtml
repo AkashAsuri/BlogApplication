@@ -1,0 +1,16 @@
+﻿@model List<BlogApplication.Models.BlogVM>
+@{
+    ViewBag.Title = "Index";
+}
+
+@Html.ActionLink("Add new Blog", "AddBlog")
+
+@foreach (var item in Model)
+{
+    <h3>@item.Title</h3>
+    <h4>@item.CreatedDate.ToString("dd-MMM-yyyy")</h4>
+    <div>@item.ShortDescription</div>
+    @Html.ActionLink("Continue Reading", "Detail", new { blogId = item.Id })
+}
+
+

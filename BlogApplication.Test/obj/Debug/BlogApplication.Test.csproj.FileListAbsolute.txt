@@ -1,0 +1,2 @@
+C:\Users\venky\Source\BlogApplication\BlogApplication.Test\obj\Debug\BlogApplication.Test.csprojResolveAssemblyReference.cache
+C:\Users\venky\Source\BlogApplication\BlogApplication.Test\obj\Debug\BlogApplication.Test.csproj.CoreCompileInputs.cache

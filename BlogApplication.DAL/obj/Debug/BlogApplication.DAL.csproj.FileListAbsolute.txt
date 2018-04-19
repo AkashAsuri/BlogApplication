@@ -1,0 +1,10 @@
+C:\Users\venky\Source\BlogApplication\BlogApplication.DAL\bin\Debug\BlogApplication.DAL.dll
+C:\Users\venky\Source\BlogApplication\BlogApplication.DAL\bin\Debug\BlogApplication.DAL.pdb
+C:\Users\venky\Source\BlogApplication\BlogApplication.DAL\bin\Debug\EntityFramework.dll
+C:\Users\venky\Source\BlogApplication\BlogApplication.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\venky\Source\BlogApplication\BlogApplication.DAL\bin\Debug\EntityFramework.xml
+C:\Users\venky\Source\BlogApplication\BlogApplication.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\venky\Source\BlogApplication\BlogApplication.DAL\obj\Debug\BlogApplication.DAL.csprojResolveAssemblyReference.cache
+C:\Users\venky\Source\BlogApplication\BlogApplication.DAL\obj\Debug\BlogApplication.DAL.csproj.CoreCompileInputs.cache
+C:\Users\venky\Source\BlogApplication\BlogApplication.DAL\obj\Debug\BlogApplication.DAL.dll
+C:\Users\venky\Source\BlogApplication\BlogApplication.DAL\obj\Debug\BlogApplication.DAL.pdb

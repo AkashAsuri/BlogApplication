@@ -1,0 +1,21 @@
+﻿@model BlogApplication.Models.CommentVM
+@using (Html.BeginForm("PostComment", "Blog", null, FormMethod.Post))
+{
+    @Html.HiddenFor(m => m.Id)
+    @Html.HiddenFor(m => m.BlogId)
+    <div class="form-group">
+        <label for="title" class="control-label">Add Comment</label>
+        @Html.TextBoxFor(m => m.CommentText, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.CommentText, "", new { @class = "text-danger" })
+    </div>
+    <div>
+        <input type="submit" value="Post Comment" class="btn btn-primary" />
+        <button value="Clear" class="btn" name="Clear" onclick="clearPost()">Clear</button>
+    </div>
+}
+<script>
+    function clearPost() {
+        $('#CommentText').val("");
+        return false;
+    }
+</script>

@@ -1,0 +1,23 @@
+﻿@model BlogApplication.Models.BlogVM
+
+@{
+    ViewBag.Title = "Detail";
+}
+
+<h3>@Model.Title</h3>
+<h4>@Model.CreatedDate.ToString("dd-MMM-yyyy")</h4>
+<div>@Model.Description</div>
+
+<h3>Comments</h3>
+@foreach (var comment in Model.BlogComments)
+{
+    <div>@comment.CommentedDate.ToString("dd-MMM-yyyy")</div>
+    <h4>@comment.CommentText</h4>
+}
+
+@Html.Action("PostComment", new { blogId = Model.Id })
+<br /><br />
+@Html.ActionLink("Back", "Index")
+
+
+
